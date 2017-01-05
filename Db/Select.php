@@ -7,5 +7,111 @@
  * 
  */
 class Select{
+    protected $_array = array(
+        'distinct' => false,
+        'columns' => array(),
+        'from'=>array(),
+        'where' => array(),
+        'join' => array(),
+        'order' => array(),
+        'group' => array(),
+        'having' => array(),
+        'limit' => array(),
+    );
     
+    /**
+     * SQL from
+     * 
+     */
+    public function from(){
+        
+    }
+    
+    /**
+     * SQL where Óï¾ä
+     *
+     */
+    public function where(){
+        
+    }
+    
+    /**
+     * SQL Ôö¼Ó²éÑ¯×Ö¶Î
+     * 
+     */
+    public function columns(){
+        
+    }
+    
+    /**
+     * SQL order ÅÅÐò
+     * 
+     */
+    public function order(){
+        
+    }
+    
+    /**
+     * SQL group ·Ö×é
+     * 
+     */
+    public function group(){
+        
+    }
+    
+    /**
+     * 
+     * 
+     */
+     public function having(){
+        
+     }
+    
+    /**
+     * SQL limit ·­Ò³
+     *
+     */
+    public function limit(){
+        
+    }
+    
+    /**
+     * 
+     * 
+     */
+    public function joinLeft(){
+        
+    }
+    
+    /**
+     * 
+     * 
+     */
+    public function joinRight(){
+        
+    }
+    
+    /**
+     * 
+     * 
+     */
+    public function joinFull(){
+        
+    }
+    
+    /**
+     * 
+     * 
+     */
+    public function join(){
+        
+    }
+    
+    public function Build(){
+        
+    }
+    
+    public function __toString(){
+        
+    }
 }
