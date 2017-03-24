@@ -1,14 +1,13 @@
 <?php
 class Db{
-    static $_self = 1;
-    protected function __construct(){
-        
-    }
-    public static function getInstance(){
-        self::$_self = 10;
-    }
-    
-    public static function getTest(){
-        return self::$_self;
-    }
+    /**
+     * 数据实例工厂类
+     * 
+     * @param $adapter 数据库适配器类型
+     * 
+     */
+    public function facty($adapter,$config){
+           $className = 'xxxx'.$adapter;
+           return $className($config);
+    }    
 }
